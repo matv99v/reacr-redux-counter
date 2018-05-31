@@ -1,0 +1,26 @@
+.counter {
+    background-color: yellow;
+    padding: 1rem;
+    display: inline-flex;
+    font-size: 5rem;
+}
+
+.counter-control {
+    width: 5rem;
+    text-align: center;
+    outline: 3px solid lime;
+    justify-content: flex-end;
+    user-select: none;
+}
+
+.counter-control:hover {
+    cursor: pointer;
+}
+
+.counter-control:active {
+    background-color: lime;
+}
+
+.counter-value {
+    padding: 0 1rem;
+}
